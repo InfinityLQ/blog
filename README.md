@@ -27,6 +27,8 @@ cd blog
 ```
 
 ### 2. 项目结构
+
+```bash
 blog
 ├── pom.xml
 ├── src
@@ -51,4 +53,4 @@ blog
 │               ├── admin.html                        # 管理后台
 │               └── publish.html                      # 发布文章
 
-
+```
