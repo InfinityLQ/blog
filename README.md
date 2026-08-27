@@ -23,3 +23,31 @@
 ```bash
 git clone https://github.com/InfinityLQ/blog.git
 cd blog
+
+
+### 2. 项目结构
+blog
+├── pom.xml
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── blog
+│       │           ├── BlogApplication.java          # 启动类
+│       │           ├── entity
+│       │           │   └── Article.java              # 文章实体
+│       │           ├── repository
+│       │           │   └── ArticleRepository.java    # 数据访问层
+│       │           ├── service
+│       │           │   └── ArticleService.java       # 业务逻辑
+│       │           └── controller
+│       │               └── ArticleController.java    # 控制器
+│       └── resources
+│           ├── application.yml                       # 配置文件
+│           └── templates
+│               ├── index.html                        # 首页
+│               ├── detail.html                       # 文章详情
+│               ├── admin.html                        # 管理后台
+│               └── publish.html                      # 发布文章
+
+
