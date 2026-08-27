@@ -24,6 +24,7 @@
 git clone https://github.com/InfinityLQ/blog.git
 cd blog
 
+```
 
 ### 2. 项目结构
 blog
