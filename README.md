@@ -54,3 +54,17 @@ blog
 │               └── publish.html                      # 发布文章
 
 ```
+
+### 3.配置数据库
+
+> 修改 src/main/resources/application.yml 中的数据库连接信息，以便于链接数据库
+
+```bash
+
+spring:
+  datasource:
+    username: root
+    password: 自己的MySQL密码
+
+```
+
