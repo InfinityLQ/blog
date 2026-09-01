@@ -67,4 +67,11 @@ spring:
     password: 自己的MySQL密码
 
 ```
+### 4.创建数据库
+
+```bash
+
+CREATE DATABASE blog;
+
+```
 
