@@ -74,4 +74,12 @@ spring:
 CREATE DATABASE blog;
 
 ```
+### 5.业务逻辑层 (Service)
 
+- **说明**：实现文章查询、保存、浏览量自增等核心业务
+
+### 6.控制器层 (Controller) + 启动类
+
+> 提交文件 BlogApplication.java、ArticleController.java
+
+- **说明**：启动类配置；控制器实现首页、详情、后台、发布、删除等路由
