@@ -83,3 +83,10 @@ CREATE DATABASE blog;
 > 提交文件 BlogApplication.java、ArticleController.java
 
 - **说明**：启动类配置；控制器实现首页、详情、后台、发布、删除等路由
+
+
+### 7.前端模板 (Thymeleaf)
+
+> 提交文件 index.html、detail.html
+
+- **说明**：首页文章列表、详情页展示
