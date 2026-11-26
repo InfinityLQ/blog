@@ -85,8 +85,15 @@ CREATE DATABASE blog;
 - **说明**：启动类配置；控制器实现首页、详情、后台、发布、删除等路由
 
 
-### 7.前端模板 (Thymeleaf)
+### 7.前端模板 (Thymeleaf)-前台
 
 > 提交文件 index.html、detail.html
 
 - **说明**：首页文章列表、详情页展示
+
+
+### 8.前端模板 (Thymeleaf)-后台
+
+> 提交文件 admin.html、publish.html
+
+- **说明**：后台文章管理、发布文章页面
